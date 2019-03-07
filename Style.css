@@ -1,0 +1,133 @@
+body
+{
+    background: #AED6F1  ;
+    text-align: center;
+}
+#main
+{
+    background: #FFFFFF;
+    width: 60%;
+    height: 90%;
+    margin: 5% 20% 10% 20%;
+    border-radius: 5px;
+    -webkit-box-shadow: 7px 10px 37px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 10px 37px -3px rgba(0,0,0,0.75);
+    box-shadow: 7px 10px 37px -3px rgba(0,0,0,0.75); 
+     font-family: 'Krub', sans-serif;
+}
+h1
+{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+.label_class
+{
+    margin: 10px 10px 10px 0px;
+    text-align: right;
+    display: inline-block;
+    width: 35%;
+}
+.input_text
+{
+    margin: 10px 0px 10px 0px;
+    text-align: left;
+    display: inline-block;
+    width: 35%;
+    height: 10%;
+    vertical-align: top;
+    border-radius: 3px;
+    border: 1px solid #c0c0c0;
+    padding: 5px;
+}
+#p_text_result
+{
+    margin: 10px 0px 10px 0px;
+    text-align: left;
+    display: inline-block;
+    width: 35%;
+    height: 10%;
+    vertical-align: top;
+    border-radius: 3px;
+    border: 1px solid #c0c0c0;
+    padding: 5px;
+    min-height: 20px;
+}
+
+
+/* style botton from www.bestcssbuttongenerator.com  */
+.myButton {
+	-moz-box-shadow: 0px 0px 0px 2px #9fb4f2;
+	-webkit-box-shadow: 0px 0px 0px 2px #9fb4f2;
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #7892c2), color-stop(1, #476e9e));
+	background:-moz-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:-webkit-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:-o-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:-ms-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7892c2', endColorstr='#476e9e',GradientType=0);
+	background-color:#7892c2;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Krub', sans-serif;
+	font-size:19px;
+    padding:12px 37px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #283966;
+    text-align: left;
+    vertical-align: top;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #476e9e), color-stop(1, #7892c2));
+	background:-moz-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+	background:-webkit-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+	background:-o-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+	background:-ms-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#476e9e', endColorstr='#7892c2',GradientType=0);
+	background-color:#476e9e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+@media screen and (max-width: 1300px)
+{
+    #main
+    {
+        width: 80%;   
+        height: 90%;
+        margin: 5% 10% 10% 10%;  
+    }
+}
+@media screen and (max-width: 1000px)
+{
+    #main
+    {
+        width: 90%;   
+        height: 90%;
+        margin: 5% 5% 10% 5%;
+       
+    }
+}
+@media screen and (max-width: 700px)
+{
+    #main
+    {
+        width: 90%;   
+        height: 90%;
+        margin: 5% 5% 10% 5%;
+       
+    }
+    
+}
+
