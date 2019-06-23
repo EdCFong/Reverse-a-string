@@ -11,9 +11,9 @@ function reverseString(str) {
 	  str2 = str2 + my_array[i];
    }  
  
-   
-   return str2;
+   document.getElementById("p_text_result").innerHTML = "Hello Dolly.";
+   //return str2;
  }
  
- reverseString("hello");
+ 
   
